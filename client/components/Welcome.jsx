@@ -5,7 +5,7 @@ const Welcome = () => {
     <>
       <div>
         <h1 className='welcomeHeader'>Haere mai, Welcome to</h1>
-        <h1>iGotU !</h1>
+        <h1><strong>iGotU !</strong></h1>
       </div>
     </>
   )
