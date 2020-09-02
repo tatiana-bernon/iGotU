@@ -1,9 +1,14 @@
 import React from 'react'
 
-const App = () => {
+const Welcome = () => {
   return (
-    <h1>React development has begun!</h1>
+    <>
+      <div>
+        <h1>Haere mai, Welcome to</h1>
+        <h1 className="WelcomeTitle">iGotU</h1>
+      </div>
+    </>
   )
 }
 
-export default App
+export default Welcome
