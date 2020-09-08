@@ -5,35 +5,41 @@ const WelcomeContent = () => {
     <>
       <section className="section">
         <div className="container">
-          <h1 className="title has-text-centered">Haere mai, Welcome to</h1>
-          <h2 className="subtitle has-text-centered is-size-5">
+          <h1 className="title has-text-centered ">Haere mai, Welcome to</h1>
+          <h2 className= "has-text-centered content is-large ">
             <strong>iGotU !</strong>
           </h2>
+          <div className="subtitle has-text-centered content is-medium">
+            <p>Start your journey with us by kindly selecting your prefered user profile option. </p>
+          </div>
         </div>
       </section>
       <section className="section">
-        <div className="container">
-          <button className="button is-primary is-outlined is-grouped">I am a parent</button>
-          <br></br>
-          <button className="button is-primary is-outlined is-grouped">I am a teacher</button>
+        <div className="field is-grouped is-grouped-centered">
+          <p className="control">
+            <button className="button is-medium is-primary is-outlined"><strong>I am a parent</strong></button>
+          </p>
+          <p className="control">
+            <button className="button is-medium is-primary is-outlined"><strong>I am a teacher</strong></button>
+          </p>
         </div>
       </section>
-      <section className="section">
+      <section className="section has-background-primary-light">
         <div className="container">
           <div className="columns is-mobile">
             <div className="column">
-              <figure className="image is-4by5">
-                <img src="https://bulma.io/images/placeholders/128x128.png" />
+              <figure className="image is-square">
+                <img src="../Images/image 1.jpeg" />
               </figure>
             </div>
-            <div className="column"><figure className="image is-4by5">
-              <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <div className="column"><figure className="image is-square">
+              <img src="../Images/image 2.jpg" />
             </figure></div>
-            <div className="column"><figure className="image is-4by5">
-              <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <div className="column"><figure className="image is-square">
+              <img src="../Images/image 3.jpg" />
             </figure></div>
-            <div className="column"><figure className="image is-4by5">
-              <img src="https://bulma.io/images/placeholders/128x128.png" />
+            <div className="column"><figure className="image is-square">
+              <img src="../Images/image 4.jpg" />
             </figure></div>
           </div>
         </div>

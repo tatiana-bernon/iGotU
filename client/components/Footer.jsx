@@ -6,10 +6,9 @@ const Footer = () => {
       <footer className="footer">
         <div className="content has-text-centered">
           <p>
-            <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-      <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-      is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-    </p>
+            <strong>iGotU</strong> by <a href="https://www.linkedin.com/in/mtbernon/" target="_blank">Tatiana Bernon</a>. Pōhutukawa Cohort 2020
+            <a href="https://devacademy.co.nz/" target="_blank"> Enspiral Dev Academy &#169;.</a>
+          </p>
         </div>
       </footer>
     </>
