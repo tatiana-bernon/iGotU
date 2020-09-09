@@ -216,7 +216,7 @@ const FormTeacher = () => {
 
           <p className="control">
 
-            <a className="button is-primary"><strong>Submit Form</strong></a>
+            <a className="button is-primary"><strong>Update Profile</strong></a>
 
           </p>
 

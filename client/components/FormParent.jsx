@@ -16,7 +16,7 @@ const FormParent = () => {
 
         <div className="has-text-centered">
 
-          <h1 className='has-text-primary-dark'>Teacher Profile Form</h1>
+          <h1 className='has-text-primary-dark'>Parent Profile Form</h1>
 
           <h3>Kindly fill this form with the relevant information about you and your whānau.</h3>
 
@@ -42,11 +42,11 @@ const FormParent = () => {
 
           <div className="field">
 
-            <label className="label">Experience</label>
+            <label className="label">Family members</label>
 
             <div className="control">
 
-              <input className="input is-primary" type="text" placeholder="e.g. Places you worked before" />
+              <input className="input is-primary" type="text" placeholder="e.g. My spouse Geraldine and our daughter Mia" />
 
             </div>
 
@@ -56,11 +56,11 @@ const FormParent = () => {
 
           <div className="field">
 
-            <label className="label">Qualifications</label>
+            <label className="label">Child age</label>
 
             <div className="control">
 
-              <input className="input is-primary" type="text" placeholder="e.g. Any courses completed in the field of Education" />
+              <input className="input is-primary" type="tel" placeholder="e.g. Mia - 9months and Tāne - 2 yrs old" />
 
             </div>
 
@@ -68,11 +68,11 @@ const FormParent = () => {
 
           <br />
 
-          <label className="label">Teacher Registration Number</label>
+          <label className="label">Child´s routine</label>
 
           <div className="control">
 
-            <input className="input is-primary" type="text" placeholder="e.g. Number on Registration card" />
+            <input className="input is-primary" type="text" placeholder="e.g. A 150ml bottle before morning nap at 9.30 ish" />
 
           </div>
 
@@ -80,11 +80,11 @@ const FormParent = () => {
 
           <div className="field">
 
-            <label className="label">Last time you were police veted</label>
+            <label className="label">Child´s current interests</label>
 
             <div className="control">
 
-              <input className="input is-primary" type="text" placeholder="e.g. Last year when applying for my provisional teacher Reg" />
+              <input className="input is-primary" type="text" placeholder="e.g. Loves music and our dog Pikachu" />
 
             </div>
 
@@ -92,11 +92,11 @@ const FormParent = () => {
 
           <br />
 
-          <label className="label">First aid expiry date</label>
+          <label className="label">Parent´s expectations and aspiration for child</label>
 
           <div className="control">
 
-            <input className="input is-primary" type="text" placeholder="e.g. 20/12/2021" />
+            <input className="input is-primary" type="text" placeholder="e.g. I want my child to be happy and my mind at peace for me to focus with work" />
 
           </div>
 
@@ -104,11 +104,11 @@ const FormParent = () => {
 
           <div className="field">
 
-            <label className="label">Preferred age group</label>
+            <label className="label">How to include us in the child´s routine during working hours?</label>
 
             <div className="control">
 
-              <input className="input is-primary" type="text" placeholder="e.g. Toddlers; 2-3.5 years" />
+              <input className="input is-primary" type="text" placeholder="e.g. Before Tim´s afternoon nap, I´ll come to give him a cuddle and a kiss. " />
 
             </div>
 
@@ -116,11 +116,11 @@ const FormParent = () => {
 
           <br />
 
-          <label className="label">Personal teaching philosophy and values</label>
+          <label className="label">Important information about our child</label>
 
           <div className="control">
 
-            <input className="input is-primary" type="text" placeholder="e.g Reggio philosophy with RIE" />
+            <input className="input is-primary" type="text" placeholder="e.g Allergies, special cuddly or morning ritual?" />
 
           </div>
 
@@ -128,11 +128,11 @@ const FormParent = () => {
 
           <div className="field">
 
-            <label className="label">Curriculum offered</label>
+            <label className="label">Days and duration of contract</label>
 
             <div className="control">
 
-              <input className="input is-primary" type="text" placeholder="e.g. Emphasis on sensory exploration and free play" />
+              <input className="input is-primary" type="text" placeholder="e.g. Monday, Wednesday, Thursday, 9.00 am to 5.00pm" />
 
             </div>
 
@@ -142,11 +142,11 @@ const FormParent = () => {
 
           <div className="field">
 
-            <label className="label">Ressources provided</label>
+            <label className="label">What we like to do as a family?</label>
 
             <div className="control">
 
-              <input className="input is-primary" type="text" placeholder="e.g. books and finger puppets" />
+              <input className="input is-primary" type="text" placeholder="e.g. Going to the park" />
 
             </div>
 
@@ -156,11 +156,11 @@ const FormParent = () => {
 
           <div className="field">
 
-            <label className="label">Expectation</label>
+            <label className="label">Family Values</label>
 
             <div className="control">
 
-              <input className="input is-primary" type="text" placeholder="e.g. Parents to share with me their strategies for me to use them, for more consistency for the child" />
+              <input className="input is-primary" type="text" placeholder="e.g. Kindness, respect and sharing quality time together" />
 
             </div>
 
@@ -180,35 +180,21 @@ const FormParent = () => {
 
           </div>
 
-          <br />
-
-          <div className="field">
-
-            <label className="label">How would you respect the parent space and need to work while being inclusive?</label>
-
-            <div className="control">
-
-              <input className="input is-primary" type="text" placeholder="e.g. I will adapt a routine where is possible the family can have meals together" />
-
-            </div>
-
-          </div>
-
-          <br />
-
-          <div className="field">
-
-            <label className="label">Things we should know about you</label>
-
-            <div className="control">
-
-              <input className="input is-primary" type="text" placeholder="e.g. Likes, hobbies and passion, anything helpful to know you better" />
-
-            </div>
-
-          </div>
-
         </fieldset>
+
+        <br />
+
+        <div className="field">
+
+          <label className="label">Contact Information</label>
+
+          <div className="control">
+
+            <input className="input is-primary" type="text" placeholder="e.g. email? phone number?" />
+
+          </div>
+
+        </div>
 
         <br />
 
@@ -216,7 +202,7 @@ const FormParent = () => {
 
           <p className="control">
 
-            <a className="button is-primary"><strong>Submit Form</strong></a>
+            <a className="button is-primary"><strong>Update Profile</strong></a>
 
           </p>
 
