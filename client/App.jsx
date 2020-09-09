@@ -9,18 +9,31 @@ import Footer from './components/Footer'
 
 const App = () => {
   return (
+
     <Router>
+
       <div className='app'>
+
         <div className='container'>
+
           <Route exact path='/' component={Navbar} />
+
           <div className='content'>
+
             <Route exact path='/' component={WelcomeContent} />
+
             <Route path='/formparent' component={FormParent} />
+
             <Route path='/formteacher' component={FormTeacher} />
+
             <Route exact path='/' component={Footer} />
+
           </div>
+
         </div>
+
       </div>
+
     </Router>
   )
 }
