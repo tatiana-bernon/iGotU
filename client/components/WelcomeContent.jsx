@@ -54,25 +54,25 @@ const WelcomeContent = () => {
 
             <div className="column">
 
-              <figure className="image is-square"><img src="../Images/image 1.jpeg" /></figure>
+              <figure className="image is-4by3"><img src="../Images/image 1.jpeg" /></figure>
 
             </div>
 
             <div className="column">
 
-              <figure className="image is-square"><img src="../Images/image 2.jpg" /></figure>
+              <figure className="image is-4by3"><img src="../Images/image 2.jpg" /></figure>
 
             </div>
 
             <div className="column">
 
-              <figure className="image is-square"><img src="../Images/image 3.jpg" /></figure>
+              <figure className="image is-4by3"><img src="../Images/image 3.jpg" /></figure>
 
             </div>
 
             <div className="column">
 
-              <figure className="image is-square"><img src="../Images/image 4.jpg" /></figure>
+              <figure className="image is-4by3"><img src="../Images/image 4.jpg" /></figure>
 
             </div>
 

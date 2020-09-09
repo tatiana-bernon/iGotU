@@ -9,7 +9,7 @@ const FormTeacher = () => {
       <div>
         <Navbar />
         <br />
-        <fieldset disabled>
+        <fieldset>
 
           <div className="field">
             <label className="label">Name</label>
