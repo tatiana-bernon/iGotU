@@ -11,10 +11,10 @@
     "dev": "run-p dev:client dev:server",
     "dev:client": "webpack --watch",
     "dev:server": "nodemon server",
-    "start": "run-s build server",
+    "start": "run-p client server",
     "build": "webpack",
     "server": "node server",
-    "test": "jest --watchAll --verbose"
+    "test": "jest --watchAll --noStackTrace"
   },
   "babel": {
     "presets": [
@@ -28,7 +28,7 @@
   },
   "jest": {
     "setupFiles": [
-      "./tests/setup.js"
+      "./tests/setup-env.js"
     ]
   },
   "dependencies": {
