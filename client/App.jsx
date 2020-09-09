@@ -1,20 +1,40 @@
 import React from 'react'
+import { HashRouter as Router, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 import WelcomeContent from './components/WelcomeContent'
+import FormParent from './components/FormParent'
+import FormTeacher from './components/FormTeacher'
 import Footer from './components/Footer'
 
 const App = () => {
   return (
-    <>
-      <div>
-        <Navbar />
-        <br/>
-        <WelcomeContent />
-        <br/>
-        <Footer />
+
+    <Router>
+
+      <div className='app'>
+
+        <div className='container'>
+
+          <Route exact path='/' component={Navbar} />
+
+          <div className='content'>
+
+            <Route exact path='/' component={WelcomeContent} />
+
+            <Route path='/formparent' component={FormParent} />
+
+            <Route path='/formteacher' component={FormTeacher} />
+
+            <Route exact path='/' component={Footer} />
+
+          </div>
+
+        </div>
+
       </div>
-    </>
+
+    </Router>
   )
 }
 
