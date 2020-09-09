@@ -1,4 +1,5 @@
 import React from 'react'
+import { link } from 'react-router'
 
 const WelcomeContent = () => {
   return (
@@ -6,7 +7,7 @@ const WelcomeContent = () => {
       <section className="section">
         <div className="container">
           <h1 className="title has-text-centered ">Haere mai, Welcome to</h1>
-          <h2 className= "has-text-centered content is-large ">
+          <h2 className="has-text-centered content is-large ">
             <strong>iGotU !</strong>
           </h2>
           <div className="subtitle has-text-centered content is-medium">
@@ -17,7 +18,7 @@ const WelcomeContent = () => {
       <section className="section">
         <div className="field is-grouped is-grouped-centered">
           <p className="control">
-            <button className="button is-medium is-primary is-outlined"><strong>I am a parent</strong></button>
+            <link to="/Form"><button className="button is-medium is-primary is-outlined"><strong>I am a parent</strong></button></link>
           </p>
           <p className="control">
             <button className="button is-medium is-primary is-outlined"><strong>I am a teacher</strong></button>
