@@ -12,12 +12,12 @@ const App = () => {
     <Router>
       <div className='app'>
         <div className='container'>
-          <Route path='/' component={Navbar} />
+          <Route exact path='/' component={Navbar} />
           <div className='content'>
             <Route exact path='/' component={WelcomeContent} />
             <Route path='/formparent' component={FormParent} />
             <Route path='/formteacher' component={FormTeacher} />
-            <Route path='/' component={Footer} />
+            <Route exact path='/' component={Footer} />
           </div>
         </div>
       </div>
