@@ -5,7 +5,7 @@
 
 [View the slideshow of the presentation of my personal project here](https://drive.google.com/file/d/1nN69EDBAczxKxoiHkjrKXSE59ZRpCcfF/view?usp=sharing)
 
-![alt text](https://github.com/tatiana-bernon/iGotU/server/public/images/igotu.jpeg)
+![alt text](https://github.com/tatiana-bernon/iGotU/blob/master/server/public/Images/igotu.jpeg)
 
 
 ## Setup
