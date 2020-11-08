@@ -1,9 +1,9 @@
 # iGotU
 
->A personal project close to my heart and linked to my teaching life. This website aims to help families with parents working remote during these challenging times and for ECE teachers facing hardships. A platform where parents and teachers can connect and help each other.
+> A personal project close to my heart and linked to my teaching life. This website aims to help families with parents working remote during these challenging times and for ECE teachers facing hardships. A platform where parents and teachers can connect and help each other.
 
 
-[View the slideshow of the presentation of my personal project here](https://drive.google.com/file/d/1nN69EDBAczxKxoiHkjrKXSE59ZRpCcfF/view?usp=sharing
+[View the slideshow of the presentation of my personal project here](https://drive.google.com/file/d/1nN69EDBAczxKxoiHkjrKXSE59ZRpCcfF/view?usp=sharing)
 
 ![alt text](https://github.com/tatiana-bernon/gatsby-simplefolio/blob/master/src/images/igotu.jpeg)
 
